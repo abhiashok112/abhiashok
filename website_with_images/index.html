@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhijith Ashok - Professional Resume</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+        }
+        header {
+            text-align: center;
+            padding: 50px 0;
+            background: url('hero-background.jpg') no-repeat center center/cover;
+            color: white;
+        }
+        header .profile-pic {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        .hero {
+            text-align: center;
+        }
+        .hero p {
+            font-size: 1.2em;
+        }
+        .btn {
+            background: #333;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin: 10px;
+        }
+        .skills i {
+            font-size: 24px;
+            color: #0779e4;
+        }
+        .skills {
+            display: flex;
+            justify-content: space-around;
+        }
+        .skill-item {
+            text-align: center;
+        }
+        .skill-bar {
+            width: 90%;
+            background-color: #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        .bar {
+            height: 10px;
+            background-color: #0779e4;
+        }
+        .experience .job {
+            margin-bottom: 30px;
+        }
+        .contact {
+            padding: 20px 0;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        .social-icons i {
+            font-size: 24px;
+            color: white;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="profile-pic.jpg" alt="Abhijith Ashok" class="profile-pic">
+        <h1>Abhijith Ashok</h1>
+        <p>Supply Chain Professional focused on innovative procurement strategies and continuous improvement.</p>
+        <a href="#about" class="btn">Learn More</a>
+        <a href="CV.pdf" class="btn">Download CV</a>
+    </header>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am a proactive and innovative procurement and supply chain professional with expertise in defining cost-effective purchasing strategies. My focus is on building strong relationships across diverse teams to improve customer and supplier experiences. I take an analytical approach to problem-solving, optimizing operations to reduce waste and enhance material usage efficiency.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Areas of Expertise</h2>
+            <div class="skill-item">
+                <i class="fas fa-cogs"></i>
+                <h3>Supply Chain Management</h3>
+                <div class="skill-bar">
+                    <div class="bar" style="width: 90%;"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <i class="fas fa-chart-line"></i>
+                <h3>Strategic Procurement</h3>
+                <div class="skill-bar">
+                    <div class="bar" style="width: 85%;"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <i class="fas fa-project-diagram"></i>
+                <h3>Project Management</h3>
+                <div class="skill-bar">
+                    <div class="bar" style="width: 80%;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2>Career Experience</h2>
+            <div class="job">
+                <h3>Amazon (Fulfilment Centre Associate) - 10/2024 – Present</h3>
+                <ul>
+                    <li>Part of a team selecting, packing, and shipping orders in a fast-paced fulfilment centre.</li>
+                    <li>Received and stored inventory, troubleshooting as necessary to ensure efficiency.</li>
+                    <li>Utilized scanners and adhered to strict safety and quality standards.</li>
+                </ul>
+            </div>
+            <!-- Additional job experiences here -->
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <form action="mailto:abhijithulegar11@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/abhijithulegar11"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/abhijithashok"><i class="fab fa-github"></i></a>
+        </div>
+        <p>&copy; 2024 Abhijith Ashok</p>
+    </footer>
+
+</body>
+</html>
